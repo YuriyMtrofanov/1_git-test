@@ -13,3 +13,5 @@ function createParagraph(){
 }
 
 createParagraph()
+
+console.log('Объединил ветки main и develop')
