@@ -5,3 +5,11 @@ function createHeader(){
 }
 
 createHeader()
+
+function createParagraph(){
+    const paragraph = document.createElement('p')
+    paragraph.textContent = 'Add paragraph'
+    document.body.append(paragraph)
+}
+
+createParagraph()
